@@ -151,6 +151,7 @@ class PhpAT56 < Formula
       --with-openssl=#{Formula["openssl"].opt_prefix}
       --with-pdo-dblib=#{Formula["freetds"].opt_prefix}
       --with-pdo-mysql=mysqlnd
+      --with-sybase_ct
       --with-pdo-odbc=unixODBC,#{Formula["unixodbc"].opt_prefix}
       --with-pdo-pgsql=#{Formula["libpq"].opt_prefix}
       --with-pdo-sqlite=#{Formula["sqlite"].opt_prefix}
